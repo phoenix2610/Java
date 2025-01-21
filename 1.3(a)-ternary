@@ -1,0 +1,11 @@
+public class ternary {
+    public static void main(String[] args) {
+        int a = 1;
+        int b = 2;
+        int c = 3;
+        
+        int greatest = (a > b) ? (a > c ? a : c) : (b > c ? b : c);
+        
+        System.out.println("The greatest number is " + greatest);
+    }
+}
