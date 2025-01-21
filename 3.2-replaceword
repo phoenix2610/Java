@@ -1,0 +1,18 @@
+public class ReplaceWord {
+    public static void main(String[] args) {
+        // Original sentence
+        String originalSentence = "This user is working on code.";
+        
+        // Word to be replaced
+        String targetWord = "user";
+        
+        // Word to replace with
+        String replacementWord = "god";
+        
+        // Replace the target word with the replacement word
+        String modifiedSentence = originalSentence.replace(targetWord, replacementWord);
+        
+        // Output the modified sentence
+        System.out.println(modifiedSentence);  // Output: This should be good enough 
+    }
+}
